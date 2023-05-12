@@ -13,6 +13,9 @@ export const CHANNEL_PK = process.env.CHANNEL_PK || "";
 export const JWT_SECRET = process.env.JWT_SECRET || "";
 export const MIN_BLOCK = Number(process.env.MIN_BLOCK || "0");
 
+export const LENS_API_PROD = 'https://api.lens.dev/'
+export const LENS_API_TEST = 'https://api-mumbai.lens.dev/'
+
 // export const provider = new ethers.providers.WebSocketProvider(WEB3_RPC_URI);
 
 // export function getDealContractDomain() {
